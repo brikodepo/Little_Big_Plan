@@ -1,0 +1,194 @@
+.accueil{
+    background-image: url(../images/image2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+@font-face {
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    src: url(C:\ProjetTransversehtmlG6\fonts\lobster);
+}
+
+.titre {
+    color: rgb(155, 245, 141);
+    display: flex-center;
+    text-align: center;
+    text-shadow: rgb(0, 0, 0) 0.006em 0.006em 0.007em,
+      #81b072 1px 1px 1px,
+      #81b072 1px 2px 1px,
+      #81b072 1px 3px 1px,
+      #257a1c 1px 4px 1px,
+      #257a1c 1px 5px 1px,
+      #257a1c 1px 6px 1px,
+      #257a1c 1px 7px 1px,
+      #257a1c 1px 8px 1px,
+      #136a06 1px 9px 1px,
+      #136a06 1px 10px 1px,
+      #136a06 1px 11px 1px,
+      #136a06 1px 12px 1px;
+    color: rgb(155, 245, 141);
+}
+
+.presentation {
+  text-align: center;
+  background-color: #81b072cf;
+  border-bottom-left-radius: 11px;
+  border-bottom-right-radius: 11px;
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+}
+.choose_here {
+  text-align: center;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(128, 128, 128, 0.489);
+}
+
+
+@keyframes AutoSlide {
+	0% {
+		left: -0px;
+	}
+	15% {
+		left: -0px;
+	}
+	35% {
+		left: -700px; 
+	}
+	50% {
+		left: -1400px; 
+	}
+	70% {
+		left: -2100px; 
+	}
+	85% {
+		left: -2100px;
+	}
+	100% {
+		left: 0px; 
+	}
+}
+
+#slideshow {
+	position: relative;
+	width: 700px;
+	height: 501px;
+	margin:  20px auto;
+	overflow: hidden;
+}
+#sContent li {
+	display: inline;
+}
+
+#sContent {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 450px;
+	margin: 0;            
+	padding: 0;
+	
+	animation-name: AutoSlide;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+.menu {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(128, 128, 128, 0.489);
+}
+
+/*mettre le bouton retour en haut a droite*/
+/*mettre le copyright*/
+/*
+.back {
+    text-align: left;
+    background-color: antiquewhite;
+    text-align: center;
+    font-size: 2em;
+    border: solid black;
+    padding: 10px;
+    border-bottom-left-radius: 11px;
+    border-bottom-right-radius: 11px;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+}*/
+
+
+body,html {
+    margin: 0;
+    font-family: sans-serif;
+}
+  
+ul {
+    text-align: center;
+    padding: 0;
+    width: 100%;
+}
+  
+li {
+    display: inline;
+}
+  
+a {
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    width: 19.5%;
+    margin-right: 3%;
+    text-align: center;
+    line-height: 2.5;
+    color: rgb(255, 255, 255);
+}
+  
+li:last-child a {
+    margin-right: 0;
+}
+  
+a:link, a:visited, a:focus {
+    background: rgba(0, 0, 0, 0.418);
+}
+  
+a:hover {
+    background: orange;
+}
+  
+a:active {
+    background: red;
+    color: white;
+}
+
+
+
+.roadtrip{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.trajet{
+    border-style: solid;   /*forme contour*/
+    border-radius: 5px;
+    background-color: white;
+    
+}
+.parcours{
+    border-style: solid;   /*forme contour*/
+    border-radius: 5px;
+    background-color: white;
+}
+.repos{
+    border-style: solid;   /*forme contour*/
+    border-radius: 5px;
+    background-color: white;
+    
+}
